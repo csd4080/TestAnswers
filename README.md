@@ -22,8 +22,10 @@ example1: event.preventDefault() //Clicking on a "Submit" button, prevent it fro
 
 
 c. What are portals in React? 
-	Portals render the child component outside the hierarchy of its parent component. For example, it allows you to keep child parent relation when it comes to click events and when it comes to rendering out your content in jsx, but you can actually render that content somewhere else by taking advantage of portals
+
+Portals render the child component outside the hierarchy of its parent component. For example, it allows you to keep child parent relation when it comes to click events and when it comes to rendering out your content in jsx, but you can actually render that content somewhere else by taking advantage of portals
 
 e. What will happen if you use setState in constructor?
+
  When you use setState(), it will cause react to rerender the component and all its children. Which you don't need in the constructor, since the component hasn't been rendered anyway.
 
